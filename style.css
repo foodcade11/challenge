@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+  body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+    
+.card{
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 700px;
+    height: 400px;
+    background-color: antiquewhite;
+    
+}
+.top-section{
+    width: 100%;
+    height: 40%;
+    
+  
+}
+.top-section h2{
+    color:red;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.top-section h4{
+    color:red;
+    padding-left: 20px;
+
+}
+.top-section p{
+  
+    padding-left: 20px;
+
+}
+
+
+
+
+.bottom-section{
+    width: 100%;
+    height: 60%;
+  
+   
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: blueviolet;
+    
+}
+.left h2{
+    width: 100%;
+    margin: 0%;
+    padding: 10px;
+
+}
+.left h4{
+    width: 100%;
+    margin: 0%;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.left p{
+    width: 100%;
+   padding-top: 1px;
+    padding-left: 10px;
+  
+}
+.left button{
+    background-color: green;
+   color: white;
+   width: 100px;
+   border-radius: 10px;
+   border: 1px solid green;
+   margin-left: 20px;
+   padding: 10px;
+   
+   
+}
+
+
+
+.rigth{
+    width: 50%;
+    height: 100%;
+   
+    background-color: rgb(81, 30, 148);
+    margin-left: 50%;
+    
+   
+}
+.rigth h4{
+    text-align: center;
+    padding-top: 18px;
+    font-weight: bold;
+}
+.rigth ul  li {
+    display: block;
+}
+@media only screen and (max-width: 600px) {
+    .left{
+        display: flex;
+    }
+    .rigth{
+        display: flex;
+    }
+  }
+
+
+
+
+
